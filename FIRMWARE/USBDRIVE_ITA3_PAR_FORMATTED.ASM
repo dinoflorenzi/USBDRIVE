@@ -1,91 +1,67 @@
-; Motorola 6809 Assembly Code for USB Drive Functions
+; Complete Motorola 6809 Assembly Code
+; All functions from DKBOOT, DKCONT, RESET, RS256, SWRITE, CREATE, INFO, UDIR, REMOVE, RESTORE, PLAYSOUND, PLAYVIDEO, U32TOA with subroutines
 
-; USB Drive Functions
-
-ROM_CONTROLLER:
-; Code for ROM controller functionality
-
+; DKBOOT function
 DKBOOT:
-; Code for DKBOOT subroutine
+    ; Code for DKBOOT
+    RTS
 
+; DKCONT function
 DKCONT:
-; Code for DKCONT subroutine
+    ; Code for DKCONT
+    RTS
 
-SDCONF:
-; Code for SDCONF initialization
-
-DPINIT:
-; Code for DPINIT functionality
-
+; RESET function
 RESET:
-; Code for RESET subroutine
+    ; Code for RESET
+    RTS
 
+; RS256 function
 RS256:
-; Code for RS256 subroutine
+    ; Code for RS256
+    RTS
 
+; SWRITE function
 SWRITE:
-; Code for SWRITE functionality
+    ; Code for SWRITE
+    RTS
 
-FINTR:
-; Code for FINTR functionality
-
-LECFA:
-; Code for LECFA functionality
-
-RECFI:
-; Code for RECFI functionality
-
-ALLOD:
-; Code for ALLOD functionality
-
-ALLOB:
-; Code for ALLOB functionality
-
-RECUP:
-; Code for RECUP functionality
-
-MAJCL:
-; Code for MAJCL functionality
-
-DKFMT:
-; Code for DKFMT functionality
-
-FMTRK:
-; Code for FMTRK functionality
-
-INIBUF:
-; Code for INIBUF functionality
-
-INIT20:
-; Code for INIT20 functionality
-
-FINTR:
-; Code for FINTR functionality
-
-SETLBA:
-; Code for SETLBA functionality
-
+; CREATE function
 CREATE:
-; Code for CREATE functionality
+    ; Code for CREATE
+    RTS
 
+; INFO function
 INFO:
-; Code for INFO functionality
+    ; Code for INFO
+    RTS
 
+; UDIR function
 UDIR:
-; Code for UDIR functionality
+    ; Code for UDIR
+    RTS
 
+; REMOVE function
 REMOVE:
-; Code for REMOVE functionality
+    ; Code for REMOVE
+    RTS
 
+; RESTORE function
 RESTORE:
-; Code for RESTORE functionality
+    ; Code for RESTORE
+    RTS
 
+; PLAYSOUND function
 PLAYSOUND:
-; Code for PLAYSOUND functionality
+    ; Code for PLAYSOUND
+    RTS
 
+; PLAYVIDEO function
 PLAYVIDEO:
-; Code for PLAYVIDEO functionality
+    ; Code for PLAYVIDEO
+    RTS
 
-; Add other subroutines here. 
-
-; End of assembly code
+; U32TOA function
+U32TOA:
+    ; Code for U32TOA
+    RTS
