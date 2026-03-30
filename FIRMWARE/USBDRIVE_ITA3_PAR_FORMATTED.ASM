@@ -1,37 +1,91 @@
-/*
- * ====================================================================================
- * Filename: USBDRIVE_ITA3_PAR_FORMATTED.ASM
- * Author: dinoflorenzi
- * Date: 2026-03-30
- * Description: This file contains the ASM code for the USBDRIVE project.
- * ====================================================================================
- */
+; Motorola 6809 Assembly Code for USB Drive Functions
 
-;
-; ==========================
-; Section: Initialization
-; ==========================
-START:
-    ; Initialize data
-    MOV     R0, #0          ; Clear R0
-    STR     R0, [R1]       ; Store R0 in address R1
+; USB Drive Functions
 
-;
-; ==========================
-; Section: Main Loop
-; ==========================
-LOOP:
-    LDR     R2, [R3]       ; Load value from address R3 to R2
-    ADD     R4, R4, R2     ; Increment R4 by R2
-    CMP     R4, #10        ; Compare R4 with 10
-    BNE     LOOP           ; Branch if not equal
+ROM_CONTROLLER:
+; Code for ROM controller functionality
 
-;
-; ==========================
-; Section: End
-; ==========================
-    B       END            ; Go to end
-END:
-    B       END            ; Infinite loop to end execution
+DKBOOT:
+; Code for DKBOOT subroutine
 
-; End of file
+DKCONT:
+; Code for DKCONT subroutine
+
+SDCONF:
+; Code for SDCONF initialization
+
+DPINIT:
+; Code for DPINIT functionality
+
+RESET:
+; Code for RESET subroutine
+
+RS256:
+; Code for RS256 subroutine
+
+SWRITE:
+; Code for SWRITE functionality
+
+FINTR:
+; Code for FINTR functionality
+
+LECFA:
+; Code for LECFA functionality
+
+RECFI:
+; Code for RECFI functionality
+
+ALLOD:
+; Code for ALLOD functionality
+
+ALLOB:
+; Code for ALLOB functionality
+
+RECUP:
+; Code for RECUP functionality
+
+MAJCL:
+; Code for MAJCL functionality
+
+DKFMT:
+; Code for DKFMT functionality
+
+FMTRK:
+; Code for FMTRK functionality
+
+INIBUF:
+; Code for INIBUF functionality
+
+INIT20:
+; Code for INIT20 functionality
+
+FINTR:
+; Code for FINTR functionality
+
+SETLBA:
+; Code for SETLBA functionality
+
+CREATE:
+; Code for CREATE functionality
+
+INFO:
+; Code for INFO functionality
+
+UDIR:
+; Code for UDIR functionality
+
+REMOVE:
+; Code for REMOVE functionality
+
+RESTORE:
+; Code for RESTORE functionality
+
+PLAYSOUND:
+; Code for PLAYSOUND functionality
+
+PLAYVIDEO:
+; Code for PLAYVIDEO functionality
+
+; Add other subroutines here. 
+
+; End of assembly code
