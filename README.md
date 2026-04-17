@@ -1,5 +1,5 @@
 # USBDRIVE
-Interfaccia USB per PC 128 OLIVETTI PRODEST
+## Interfaccia USB per PC 128 OLIVETTI PRODEST
 
 I nuovi comandi di gestione del file system della PENDRIVE sono disponibili soli da BASIC 128.
 Il comando INFO restituisce la versione del firmware del controller che può essere aggiornata, la versione del firmware del CH376S non aggiornabile se non sostituendo il CH376S, la lista dei comandi disponibili e l'immagine selezionata (vedi screenshot).
