@@ -16,6 +16,8 @@ CREATE"NOME.EST",&H6000,&H1000,0 crea un file nella pendrive salvando la memoria
 Il comando LAUNCH"NOME.EST" ripristina sul PC128 la snapshot precedentemente salvata dall'emulatore DCMOTO.
 
 Il comando UDIR elenca i file contenuti nella pendrive. Premere un qualsiasi tasto per interrompere lo scorrimento dei file.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c7735cf3-adbd-4c72-a3f8-0f454a9823fa" />
+
 
 Il comando DEL"NOME.EST" cancella il file indicato.
 
