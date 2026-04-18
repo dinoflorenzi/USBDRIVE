@@ -1,5 +1,7 @@
 # USBDRIVE
 ## Interfaccia USB per PC 128 OLIVETTI PRODEST
+L'USBDRIVE è la nuova interfaccia USB per PC128 in grado di emulare il floppy drive e montare le immagini FD dei floppy contenute in una pen drive. L'USBDRIVE è in grado di ripristinare anche le snapshot dell'emulatore DCOMOTO e molte altre aggiuntive-
+Supporta pendrive formattate FAT e FAT32 ma non tutte sono compatibili. In caso di ripetuti errori di montaggio provare a formattare la pendrive con l'utility FAT32FORMAT.EXE.
 
 I nuovi comandi di gestione del file system della PENDRIVE (firmware 3.4) sono disponibili soli da BASIC 128.
 Il comando INFO restituisce la versione del firmware del controller che può essere aggiornata, la versione del firmware del CH376S non aggiornabile se non sostituendo il CH376S, la lista dei comandi disponibili e l'immagine selezionata (vedi screenshot).
