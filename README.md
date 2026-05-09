@@ -25,3 +25,8 @@ Il comando UDIR elenca i file contenuti nella pendrive. Premere un qualsiasi tas
 
 Il comando DEL"NOME.EST" cancella il file indicato.
 
+## FAT32FORMAT
+E' un' utility in grado di formattare la pendrive in compatibile con la USBDRIVE.
+Di seguito la modalità di utilizzo.
+
+<img width="1103" height="639" alt="image" src="https://github.com/user-attachments/assets/3e55cf60-58e3-4862-9661-33fea2a94a2b" />
