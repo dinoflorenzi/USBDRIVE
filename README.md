@@ -25,6 +25,17 @@ Il comando UDIR elenca i file contenuti nella pendrive. Premere un qualsiasi tas
 
 Il comando DEL"NOME.EST" cancella il file indicato.
 
+## AGGIORNAMENTO DEL FIRMWARE USBDRIVE
+Per aggiornare il firmware dell'USBDRIVE seguire i seguenti passaggi:
+- prelevare l'ultima versione del firmware scaricando il file UPDATE.FD da git FIRMWARE e copiarlo nella chiavetta USB utilizzata
+- da computer spento inserire il JUMPER nella parte posteriore dell'USBDRIVE in modo da chiudere il contatto.
+- <img width="400" height="600" alt="IMG20260517150634" src="https://github.com/user-attachments/assets/dbb1bca6-62c1-4a4c-b567-11386b873425" />
+
+- inserire la USSBDRIVE nel PC128 con la chiavetta USB e accendere il PC128.
+- da BASIC 128 selezionare il file UPDATE.FD con il comando MOUNT"UPDATE.FD"
+- eseguire il file UPDATE.BAS digitando RUN"UPDATE.BAS"
+- alla fine dell'aggiornamento spegnere immediatamente il PC128 e rimuovere il jumper.
+- accendere di nuovo il PC128 e digitare il comando INFO per verificare la nuova versione del firmware. 
 ## FAT32FORMAT
 E' un' utility in grado di formattare la pendrive in compatibile con la USBDRIVE.
 Di seguito la modalità di utilizzo.
