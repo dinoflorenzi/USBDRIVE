@@ -1,6 +1,7 @@
 # USBDRIVE
 ## Interfaccia USB per PC 128 OLIVETTI PRODEST
-L'USBDRIVE è la nuova interfaccia USB per PC128 in grado di emulare il floppy drive e montare le immagini FD dei floppy contenute in una pen drive. L'USBDRIVE è in grado di ripristinare anche le snapshot dell'emulatore DCOMOTO e molte altre aggiuntive-
+L'USBDRIVE è la nuova interfaccia USB per PC128 in grado di emulare il floppy drive e montare le immagini FD dei floppy contenute in una pen drive. L'USBDRIVE è in grado di ripristinare anche le snapshot dell'emulatore DCOMOTO e molte altre funzionalità aggiuntive.
+E' possibile inoltre avviare in file K7 patchati con il programma k7patcher.exe scaricabile dalla cartella UTILITY. Basta montare il file .k7 con il comando MOUNT e avviarlo seguendo le istruzioni descritte nel manuale del software da avviare.
 Supporta pendrive formattate FAT e FAT32 ma non tutte sono compatibili. In caso di ripetuti errori di montaggio provare a formattare la pendrive con l'utility FAT32FORMAT.EXE.
 
 I nuovi comandi di gestione del file system della PENDRIVE (firmware 3.4) sono disponibili soli da BASIC 128.
@@ -29,11 +30,13 @@ Il comando DEL"NOME.EST" cancella il file indicato.
 Per aggiornare il firmware dell'USBDRIVE seguire i seguenti passaggi:
 - prelevare l'ultima versione del firmware scaricando il file UPDATE.FD da git FIRMWARE e copiarlo nella chiavetta USB utilizzata
 - da computer spento inserire il JUMPER nella parte posteriore dell'USBDRIVE in modo da chiudere il contatto.
-- <img width="400" height="600" alt="IMG20260517150634" src="https://github.com/user-attachments/assets/dbb1bca6-62c1-4a4c-b567-11386b873425" />
-
+- <img width="200" height="300" alt="IMG20260517150634" src="https://github.com/user-attachments/assets/dbb1bca6-62c1-4a4c-b567-11386b873425" />
 - inserire la USSBDRIVE nel PC128 con la chiavetta USB e accendere il PC128.
 - da BASIC 128 selezionare il file UPDATE.FD con il comando MOUNT"UPDATE.FD"
 - eseguire il file UPDATE.BAS digitando RUN"UPDATE.BAS"
+  <img width="823" height="523" alt="image" src="https://github.com/user-attachments/assets/fd6c6355-f1bc-4cae-9797-524b97195a28" />
+- ha inizio l'aggiornamneto
+  <img width="828" height="526" alt="image" src="https://github.com/user-attachments/assets/74c7a79e-f085-4fff-8896-d7fbc8a0419c" />
 - alla fine dell'aggiornamento spegnere immediatamente il PC128 e rimuovere il jumper.
 - accendere di nuovo il PC128 e digitare il comando INFO per verificare la nuova versione del firmware. 
 ## FAT32FORMAT
