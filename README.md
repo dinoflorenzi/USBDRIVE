@@ -30,6 +30,7 @@ Il comando DEL"NOME.EST" cancella il file indicato.
 Per aggiornare il firmware dell'USBDRIVE seguire i seguenti passaggi:
 - prelevare l'ultima versione del firmware scaricando il file UPDATE.FD da git FIRMWARE e copiarlo nella chiavetta USB utilizzata
 - da computer spento inserire il JUMPER nella parte posteriore dell'USBDRIVE in modo da chiudere il contatto. Nel caso delle USBDRIVE munite di switch spostarlo verso sinistra.
+  
   <img width="200" height="300" alt="IMG20260517150634" src="https://github.com/user-attachments/assets/dbb1bca6-62c1-4a4c-b567-11386b873425" />
 - inserire la USSBDRIVE nel PC128 con la chiavetta USB e accendere il PC128.
 - da BASIC 128 selezionare il file UPDATE.FD con il comando MOUNT"UPDATE.FD"
